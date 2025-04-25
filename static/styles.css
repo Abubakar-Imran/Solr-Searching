@@ -1,0 +1,51 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.dashboard-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #007bff;
+}
+
+.dashboard-subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #6c757d;
+}
+
+.input-group {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#autocomplete-suggestions {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#autocomplete-suggestions li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+#autocomplete-suggestions li:hover {
+  background-color: #f0f0f0;
+}
+
+.table {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.results-section {
+  margin-top: 30px;
+}
