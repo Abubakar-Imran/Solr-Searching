@@ -15,11 +15,11 @@ document.addEventListener("DOMContentLoaded", () => {
         suggestions.forEach((suggestion) => {
           const li = document.createElement("li");
           li.classList.add("list-group-item");
-          li.textContent = suggestion.title;
+          li.textContent = suggestion.value; 
           li.addEventListener("click", () => {
-            searchInput.value = suggestion.title;
+            searchInput.value = suggestion.value; 
             suggestionsList.style.display = "none";
-            searchForm.submit(); // 👉 Trigger the form submission
+            searchForm.submit();
           });
           suggestionsList.appendChild(li);
         });
