@@ -80,14 +80,6 @@ Features real-time **autocomplete suggestions** and **filtered search results** 
 
 ---
 
-## 📸 Screenshots
-
-> Search Dashboard UI:
-
-![Search Dashboard](./static/dashboard.png)
-
----
-
 ## 🛡️ License
 This project is licensed under the MIT License - feel free to use and modify!
 
